@@ -11,20 +11,29 @@
  *========================================================*/
 
 #import	"deck.h"
-#import <Foundation/NSString.h>
 #import <Foundation/Foundation.h>
+#import <Foundation/NSString.h>
 
 void	main()
 {
 	NSAutoreleasePool * pool = [[NSAutoreleasePool alloc] init];
 
 	Deck*	deck = [Deck alloc];
+	NSMutableArray* hand = [NSMutableArray array];
 
 	NSLog(@"started\n");
 	[deck init];
 
-	NSLog(@"after init\n");
+	[deck dealHand: hand ];
 
-	[deck release ];
+	NSLog(@"hand is: %@\n",hand);
+	
+	if ([deck dealHand: hand ])
+	{
+		NSLog(@"hand is: %@\n",hand);
+	}
+
+	[deck release];
+	[pool release];
 }
 

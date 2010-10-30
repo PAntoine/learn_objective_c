@@ -29,6 +29,16 @@
 	prev = prev_link;
 }
 
+-(Card*) getNext
+{
+	return next;
+}
+
+-(Card*) getPrev
+{
+	return prev;
+}
+
 -( NSString*) description
 {
 	return [ NSString stringWithFormat: @"%@ of %@ ", name[index],suits[suit] ];

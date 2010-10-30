@@ -5,12 +5,13 @@
 
 @interface Deck: NSObject
 {
-	int				index;
+	int				num_dealt;
 	NSMutableArray	*cards;
+	Card			*first_card;
 }
 
-//-(void)		init;
-//-(void)		shuffle;
-//-(NSArray*)	dealHand;
+-(void)	shuffle;
+-(void) dumpRefCount;
+-(BOOL)	dealHand:(NSMutableArray*) hand;
 
 @end
