@@ -29,7 +29,7 @@
 	{
 		for (value=0; value < 13; value++)
 		{	
-			Card* c = [ Card cardWithSuitValuePosition:suit:value ];
+			Card* c = [ Card cardWithSuitIndex:suit:value ];
 			
 			[ prev setNext: c ];
 			[ c setPrev: prev ];
@@ -150,6 +150,9 @@
 	}
 }
 
+/*--------------------------------------------------------------------------------*
+ * Name: dalloc
+ *-------------------------------------------------------------------------------*/
 -(void) dalloc
 {
 	[ cards release ];

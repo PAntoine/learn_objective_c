@@ -2,16 +2,16 @@
 
 @implementation Card
 
-+(id) cardWithSuitValuePosition:(int)val :(int) index
++(id) cardWithSuitIndex:(int)val :(int) index
 {
 	id result = [Card alloc];
 
-	[result initWithSuitValuePosition:val:index];
+	[result initWithSuitIndex:val:index];
 
 	return result;
 }
 
--(void) initWithSuitValuePosition:(int)suit_val :(int) index_val
+-(void) initWithSuitIndex:(int)suit_val :(int) index_val
 {
 	suit = suit_val;
 	index = index_val;
@@ -43,5 +43,16 @@
 {
 	return [ NSString stringWithFormat: @"%@ of %@ ", name[index],suits[suit] ];
 }
+
+/*--------------------------------------------------------------------------------*
+ * Name: getValue
+ * Desc: This function will return the value of the card.
+ *-------------------------------------------------------------------------------*/
+-(int) getValue
+{
+	return value[index];
+}
+
+
 
 @end
