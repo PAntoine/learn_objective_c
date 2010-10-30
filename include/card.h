@@ -16,6 +16,8 @@ static int		value[13] = {10,2,3,4,5,6,7,8,9,10,10,10,10};
 	Card*	next;		// this is a linkable item.
 }
 
+@property (readonly) prev;
+
 -(void) initWithSuitValuePosition:(int)val :(int) index ;
 -(void) setNext: (Card*) next_link;
 -(void) setPrev: (Card*) prev_link;

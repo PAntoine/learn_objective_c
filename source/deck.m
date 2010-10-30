@@ -39,9 +39,42 @@
 
 	[ prev release ];
 
+	[ self shuffle ];
+
 	NSLog(@"the array is: %@\n",cards);
 
 	return self;
+}
+
+/*--------------------------------------------------------------------------------*
+ * Name: shuffle
+ * Desc: This message will shuffle the deck.
+ *       [prev] <- [item] -> [next]
+ *       
+ *--------------------------------------------------------------------------------*/
+-(void) shuffle
+{
+	for (index=0;index < 52; index++)
+	{
+		swap = rand() % 52;
+
+		if (swap != index)
+		{
+			Card* temp = [ card objectAt: index ];
+
+			// remove index from the list
+			[ temp->prev setNext: [ temp next ] ];
+			[ [ temp next ] setPrev: [ temp prev ] ];
+
+			// add index into new position
+			Card* new_pos = [ cards objectAt: swap ];
+
+			[ temp setNext: new_pos ];
+			[ temp setPrev: [ new_pos prev ] ];
+			[ [ new_pos prev ] setNext: temp ];
+			[ new_pos setPrev: temp ];
+		}
+	}
 }
 
 #if 0
