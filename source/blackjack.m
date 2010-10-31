@@ -10,11 +10,13 @@
  *
  *========================================================*/
 
-#import	"deck.h"
 #import <Foundation/Foundation.h>
+#import	"deck.h"
+#import "gui.h"
 #import <Foundation/NSString.h>
+#import <AppKit/AppKit.h>
 
-void	main()
+void	main(int argc, const char* argv[])
 {
 	NSAutoreleasePool * pool = [[NSAutoreleasePool alloc] init];
 
@@ -32,6 +34,11 @@ void	main()
 	{
 		NSLog(@"hand is: %@\n",hand);
 	}
+
+	[NSApplication sharedApplication];
+	[NSApp setDelegate: [MyDelegate new]];
+
+	[NSApp run];
 
 	[deck release];
 	[pool release];

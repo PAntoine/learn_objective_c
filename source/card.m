@@ -53,6 +53,4 @@
 	return value[index];
 }
 
-
-
 @end
