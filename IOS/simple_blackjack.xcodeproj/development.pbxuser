@@ -1,0 +1,386 @@
+// !$*UTF8*$!
+{
+	1D3623240D0F684500981E51 /* simple_blackjackAppDelegate.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1330, 671}}";
+			sepNavSelRange = "{314, 0}";
+			sepNavVisRange = "{0, 535}";
+		};
+	};
+	1D3623250D0F684500981E51 /* simple_blackjackAppDelegate.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1965, 871}}";
+			sepNavSelRange = "{394, 0}";
+			sepNavVisRange = "{0, 1660}";
+		};
+	};
+	1D6058900D05DD3D006BFB54 /* simple_blackjack */ = {
+		activeExec = 0;
+		executables = (
+			337EF7D012D4A0CA00B47F50 /* simple_blackjack */,
+		);
+	};
+	28D7ACF60DDB3853001CB0EB /* simple_blackjackViewController.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1330, 975}}";
+			sepNavSelRange = "{1768, 0}";
+			sepNavVisRange = "{467, 1525}";
+		};
+	};
+	28D7ACF70DDB3853001CB0EB /* simple_blackjackViewController.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1330, 2275}}";
+			sepNavSelRange = "{877, 30}";
+			sepNavVisRange = "{0, 1388}";
+			sepNavWindowFrame = "{{565, 213}, {932, 668}}";
+		};
+	};
+	29B97313FDCFA39411CA2CEA /* Project object */ = {
+		activeBuildConfigurationName = Debug;
+		activeExecutable = 337EF7D012D4A0CA00B47F50 /* simple_blackjack */;
+		activeSDKPreference = iphoneos3.2;
+		activeTarget = 1D6058900D05DD3D006BFB54 /* simple_blackjack */;
+		addToTargets = (
+			1D6058900D05DD3D006BFB54 /* simple_blackjack */,
+		);
+		breakpoints = (
+		);
+		codeSenseManager = 337EF7DB12D4A0E900B47F50 /* Code sense */;
+		executables = (
+			337EF7D012D4A0CA00B47F50 /* simple_blackjack */,
+		);
+		perUserDictionary = {
+			"PBXConfiguration.PBXBreakpointsDataSource.v1:1CA1AED706398EBD00589147" = {
+				PBXFileTableDataSourceColumnSortingDirectionKey = "-1";
+				PBXFileTableDataSourceColumnSortingKey = PBXBreakpointsDataSource_BreakpointID;
+				PBXFileTableDataSourceColumnWidthsKey = (
+					20,
+					20,
+					198,
+					20,
+					99,
+					99,
+					29,
+					20,
+				);
+				PBXFileTableDataSourceColumnsKey = (
+					PBXBreakpointsDataSource_ActionID,
+					PBXBreakpointsDataSource_TypeID,
+					PBXBreakpointsDataSource_BreakpointID,
+					PBXBreakpointsDataSource_UseID,
+					PBXBreakpointsDataSource_LocationID,
+					PBXBreakpointsDataSource_ConditionID,
+					PBXBreakpointsDataSource_IgnoreCountID,
+					PBXBreakpointsDataSource_ContinueID,
+				);
+			};
+			PBXConfiguration.PBXFileTableDataSource3.PBXExecutablesDataSource = {
+				PBXFileTableDataSourceColumnSortingDirectionKey = "-1";
+				PBXFileTableDataSourceColumnSortingKey = PBXExecutablesDataSource_NameID;
+				PBXFileTableDataSourceColumnWidthsKey = (
+					22,
+					300,
+					1040,
+				);
+				PBXFileTableDataSourceColumnsKey = (
+					PBXExecutablesDataSource_ActiveFlagID,
+					PBXExecutablesDataSource_NameID,
+					PBXExecutablesDataSource_CommentsID,
+				);
+			};
+			PBXConfiguration.PBXFileTableDataSource3.PBXFileTableDataSource = {
+				PBXFileTableDataSourceColumnSortingDirectionKey = "-1";
+				PBXFileTableDataSourceColumnSortingKey = PBXFileDataSource_Filename_ColumnID;
+				PBXFileTableDataSourceColumnWidthsKey = (
+					20,
+					1152,
+					20,
+					48,
+					43,
+					43,
+					20,
+				);
+				PBXFileTableDataSourceColumnsKey = (
+					PBXFileDataSource_FiletypeID,
+					PBXFileDataSource_Filename_ColumnID,
+					PBXFileDataSource_Built_ColumnID,
+					PBXFileDataSource_ObjectSize_ColumnID,
+					PBXFileDataSource_Errors_ColumnID,
+					PBXFileDataSource_Warnings_ColumnID,
+					PBXFileDataSource_Target_ColumnID,
+				);
+			};
+			PBXConfiguration.PBXTargetDataSource.PBXTargetDataSource = {
+				PBXFileTableDataSourceColumnSortingDirectionKey = "-1";
+				PBXFileTableDataSourceColumnSortingKey = PBXFileDataSource_Filename_ColumnID;
+				PBXFileTableDataSourceColumnWidthsKey = (
+					20,
+					1112,
+					60,
+					20,
+					48.16259765625,
+					43,
+					43,
+				);
+				PBXFileTableDataSourceColumnsKey = (
+					PBXFileDataSource_FiletypeID,
+					PBXFileDataSource_Filename_ColumnID,
+					PBXTargetDataSource_PrimaryAttribute,
+					PBXFileDataSource_Built_ColumnID,
+					PBXFileDataSource_ObjectSize_ColumnID,
+					PBXFileDataSource_Errors_ColumnID,
+					PBXFileDataSource_Warnings_ColumnID,
+				);
+			};
+			PBXPerProjectTemplateStateSaveDate = 316961226;
+			PBXWorkspaceStateSaveDate = 316961226;
+		};
+		perUserProjectItems = {
+			33739BBC12D5C17C00C48661 = 33739BBC12D5C17C00C48661 /* PBXTextBookmark */;
+			337EF8D012D4DABF00B47F50 = 337EF8D012D4DABF00B47F50 /* PBXTextBookmark */;
+			337EF8D112D4DABF00B47F50 = 337EF8D112D4DABF00B47F50 /* PBXTextBookmark */;
+			337FD50012DE03AC00ED81AF = 337FD50012DE03AC00ED81AF /* PBXTextBookmark */;
+			337FD50112DE03AC00ED81AF = 337FD50112DE03AC00ED81AF /* PBXTextBookmark */;
+			337FD50212DE03AC00ED81AF = 337FD50212DE03AC00ED81AF /* PBXTextBookmark */;
+			337FD50312DE03AC00ED81AF = 337FD50312DE03AC00ED81AF /* PBXTextBookmark */;
+			337FD56812DE1ECD00ED81AF = 337FD56812DE1ECD00ED81AF /* PBXTextBookmark */;
+			3385EFA112DB12B400FB93BA = 3385EFA112DB12B400FB93BA /* PlistBookmark */;
+			3385EFD412DB17A800FB93BA = 3385EFD412DB17A800FB93BA /* PBXTextBookmark */;
+			3385EFD512DB17A800FB93BA = 3385EFD512DB17A800FB93BA /* PBXTextBookmark */;
+			3385F08912DB515700FB93BA = 3385F08912DB515700FB93BA /* PBXTextBookmark */;
+			3385F0EF12DB7C0D00FB93BA = 3385F0EF12DB7C0D00FB93BA /* PBXTextBookmark */;
+		};
+		sourceControlManager = 337EF7DA12D4A0E900B47F50 /* Source Control */;
+		userBuildSettings = {
+		};
+	};
+	33739BBC12D5C17C00C48661 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 337EF7E712D4AEB000B47F50 /* card_data.m */;
+		name = "card_data.m: 8306";
+		rLen = 0;
+		rLoc = 1309271;
+		rType = 0;
+		vrLen = 8748;
+		vrLoc = 41;
+	};
+	337EF7D012D4A0CA00B47F50 /* simple_blackjack */ = {
+		isa = PBXExecutable;
+		activeArgIndices = (
+		);
+		argumentStrings = (
+		);
+		autoAttachOnCrash = 1;
+		breakpointsEnabled = 1;
+		configStateDict = {
+		};
+		customDataFormattersEnabled = 1;
+		dataTipCustomDataFormattersEnabled = 1;
+		dataTipShowTypeColumn = 1;
+		dataTipSortType = 0;
+		debuggerPlugin = GDBDebugging;
+		disassemblyDisplayState = 0;
+		dylibVariantSuffix = "";
+		enableDebugStr = 1;
+		environmentEntries = (
+		);
+		executableSystemSymbolLevel = 0;
+		executableUserSymbolLevel = 0;
+		libgmallocEnabled = 0;
+		name = simple_blackjack;
+		savedGlobals = {
+		};
+		showTypeColumn = 0;
+		sourceDirectories = (
+		);
+		variableFormatDictionary = {
+		};
+	};
+	337EF7DA12D4A0E900B47F50 /* Source Control */ = {
+		isa = PBXSourceControlManager;
+		fallbackIsa = XCSourceControlManager;
+		isSCMEnabled = 0;
+		scmConfiguration = {
+			repositoryNamesForRoots = {
+				"" = "";
+			};
+		};
+	};
+	337EF7DB12D4A0E900B47F50 /* Code sense */ = {
+		isa = PBXCodeSenseManager;
+		indexTemplatePath = "";
+	};
+	337EF7E712D4AEB000B47F50 /* card_data.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1330, 109096}}";
+			sepNavSelRange = "{1309271, 0}";
+			sepNavVisRange = "{41, 8748}";
+			sepNavWindowFrame = "{{61, 156}, {1254, 825}}";
+		};
+	};
+	337EF84612D4BF7D00B47F50 /* deck.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1195, 2314}}";
+			sepNavSelRange = "{2546, 0}";
+			sepNavVisRange = "{2268, 1227}";
+			sepNavWindowFrame = "{{253, 103}, {1254, 825}}";
+		};
+	};
+	337EF84812D4BF8700B47F50 /* card.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1330, 884}}";
+			sepNavSelRange = "{85, 0}";
+			sepNavVisRange = "{0, 934}";
+		};
+	};
+	337EF85012D4BFF400B47F50 /* deck.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1330, 675}}";
+			sepNavSelRange = "{108, 0}";
+			sepNavVisRange = "{0, 217}";
+		};
+	};
+	337EF85112D4BFFC00B47F50 /* card.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1330, 675}}";
+			sepNavSelRange = "{596, 0}";
+			sepNavVisRange = "{0, 662}";
+		};
+	};
+	337EF8D012D4DABF00B47F50 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 337EF84812D4BF8700B47F50 /* card.m */;
+		name = "card.m: 5";
+		rLen = 0;
+		rLoc = 85;
+		rType = 0;
+		vrLen = 934;
+		vrLoc = 0;
+	};
+	337EF8D112D4DABF00B47F50 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 337EF84612D4BF7D00B47F50 /* deck.m */;
+		name = "deck.m: 107";
+		rLen = 0;
+		rLoc = 2434;
+		rType = 0;
+		vrLen = 1081;
+		vrLoc = 1686;
+	};
+	337FD50012DE03AC00ED81AF /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 1D3623250D0F684500981E51 /* simple_blackjackAppDelegate.m */;
+		name = "simple_blackjackAppDelegate.m: 19";
+		rLen = 0;
+		rLoc = 394;
+		rType = 0;
+		vrLen = 1660;
+		vrLoc = 0;
+	};
+	337FD50112DE03AC00ED81AF /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 1D3623240D0F684500981E51 /* simple_blackjackAppDelegate.h */;
+		name = "simple_blackjackAppDelegate.h: 14";
+		rLen = 0;
+		rLoc = 314;
+		rType = 0;
+		vrLen = 535;
+		vrLoc = 0;
+	};
+	337FD50212DE03AC00ED81AF /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 3385EFAE12DB136000FB93BA /* DraggableImageView.h */;
+		name = "DraggableImageView.h: 14";
+		rLen = 0;
+		rLoc = 250;
+		rType = 0;
+		vrLen = 562;
+		vrLoc = 0;
+	};
+	337FD50312DE03AC00ED81AF /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 3385EFAF12DB136000FB93BA /* DraggableImageView.m */;
+		name = "DraggableImageView.m: 33";
+		rLen = 0;
+		rLoc = 714;
+		rType = 0;
+		vrLen = 1252;
+		vrLoc = 418;
+	};
+	337FD56812DE1ECD00ED81AF /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 3385EFAF12DB136000FB93BA /* DraggableImageView.m */;
+		name = "DraggableImageView.m: 67";
+		rLen = 0;
+		rLoc = 1670;
+		rType = 0;
+		vrLen = 1474;
+		vrLoc = 191;
+	};
+	3385EFA112DB12B400FB93BA /* PlistBookmark */ = {
+		isa = PlistBookmark;
+		fRef = 8D1107310486CEB800E47090 /* simple_blackjack-Info.plist */;
+		fallbackIsa = PBXBookmark;
+		isK = 0;
+		kPath = (
+		);
+		name = "/Users/development/simple_blackjack/simple_blackjack-Info.plist";
+		rLen = 0;
+		rLoc = 9223372036854775808;
+	};
+	3385EFAE12DB136000FB93BA /* DraggableImageView.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1330, 671}}";
+			sepNavSelRange = "{250, 0}";
+			sepNavVisRange = "{0, 562}";
+		};
+	};
+	3385EFAF12DB136000FB93BA /* DraggableImageView.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1619, 871}}";
+			sepNavSelRange = "{1151, 0}";
+			sepNavVisRange = "{364, 1306}";
+			sepNavWindowFrame = "{{38, 177}, {1254, 825}}";
+		};
+	};
+	3385EFD412DB17A800FB93BA /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 337EF85112D4BFFC00B47F50 /* card.h */;
+		name = "card.h: 19";
+		rLen = 0;
+		rLoc = 596;
+		rType = 0;
+		vrLen = 662;
+		vrLoc = 0;
+	};
+	3385EFD512DB17A800FB93BA /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 337EF85012D4BFF400B47F50 /* deck.h */;
+		name = "deck.h: 9";
+		rLen = 0;
+		rLoc = 108;
+		rType = 0;
+		vrLen = 217;
+		vrLoc = 0;
+	};
+	3385F08912DB515700FB93BA /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 28D7ACF60DDB3853001CB0EB /* simple_blackjackViewController.h */;
+		name = "simple_blackjackViewController.h: 64";
+		rLen = 0;
+		rLoc = 1768;
+		rType = 0;
+		vrLen = 1525;
+		vrLoc = 467;
+	};
+	3385F0EF12DB7C0D00FB93BA /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 28D7ACF70DDB3853001CB0EB /* simple_blackjackViewController.m */;
+		name = "simple_blackjackViewController.m: 42";
+		rLen = 30;
+		rLoc = 877;
+		rType = 0;
+		vrLen = 1388;
+		vrLoc = 0;
+	};
+}
